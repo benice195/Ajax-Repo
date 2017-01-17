@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.ui-sortable {
+    min-height: 80px;
+}
+.btn-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 25px;
+    border: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+/* BOARD */
+.board h1 {
+    margin: 0;
+    background-color: teal;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.board {
+    text-align: center;
+    background-color: cadetblue;
+    height: 100%;
+}
+.column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+.add-card, .create-column {
+    width: 140px;
+    margin: 10px;
+    
+}
+
+.add-card:hover, .create-column:hover {
+    background-color:slategrey;
+}
+.column-add-card, .create-column, .btn-delete {
+    font-size: 16px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.column, card-list {
+    list-style: none;
+
+}
+.column, .card {
+    position: relative;
+    border-radius: 8px;
+
+}
+.column-add-card, .card, .card-placeholder {
+    display: block;
+}
+.card, .card-placeholder {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    height: 60px;
+
+}
+.card, .column h2 {
+    text-align: center;
+}     
+/* COLUMN */
+.column {
+    width: 30%;
+    display: inline-block;
+    margin: 8px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    border: 0px;
+    background-color: teal;
+}
+.column-add-card {
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 5px 8px;
+}
+.column-add-card:hover {
+    background-color:slategrey;
+}
+
+/* STYLE KARTY */
+.card {
+    padding: 4px;
+    overflow: hidden;
+    background-color: mediumturquoise;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+.card-list {
+     margin: 5px;
+     padding: 0px;
+     min-height: 300px;
+}
+.card-description {
+    margin: 2px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-placeholder {
+    border: 2px solid lightgrey;
+    background-color: lightblue;
+}
