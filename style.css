@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+
+}
+main header, .box {
+    padding:50px;
+}
+.trigger {
+    width:200px;
+    height: 30px;
+    font-weight: bold;
+    border:0px;
+    border-radius: 8px;
+}
+main a {
+    text-decoration: none;
+    color: cyan;
+    display: block;
+    padding: 10px;
+}
+.trigger, main a {
+    font-size: 20px;
+}
