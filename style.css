@@ -1,0 +1,46 @@
+body {
+    width: 1200px;
+    background-color: wheat;
+}
+body, #countries {
+    margin: 0 auto;
+    text-align: center;
+}
+#search, #country-name, #countries {
+    font-size: 20px;
+}
+#search, #country-name {
+    border: 2px solid blanchedalmond;
+    font-weight: bold;
+}
+#search, #countries, #country {
+    border-radius: 10px;
+}
+body h1 {
+    padding: 30px;
+}
+#search {
+    background-color: burlywood;
+    height: 35px;
+}
+#country-name {
+    height: 33px;
+    width: 130px;
+}
+#country-name:focus {
+    background-color: lightseagreen;
+}
+li {
+    list-style-type: none;
+}
+#countries {
+    max-width: 700px;
+    background-color: rosybrown;
+    border: 2px solid beige;
+    padding: 10px;
+}
+#country {
+    background-color: tan;
+    border: 2px dotted darkviolet;
+    padding-bottom: 20px;
+}
